@@ -18,7 +18,7 @@
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
   height: var(--TB-height, 24px);
-  width: var(--TB-width, 40px);
+  width: var(--TB-width, 20px);
 }
 .platform-win .winButton_a934d8:not(.winButtonClose_a934d8):hover {
   background-color: rgba(255, 255, 255, 0.1);
