@@ -17,7 +17,7 @@
   position: relative;
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
-  height: var(--TB-height, 24px);
+  height: var(--TB-height, 12px);
   width: var(--TB-width, 20px);
 }
 .platform-win .winButton_a934d8:not(.winButtonClose_a934d8):hover {
