@@ -1,12 +1,3 @@
-#app-mount .guilds_a4d4d9 .tree_fea3ef {
-  outline: none !important;
-}
-#app-mount .guilds_a4d4d9 .scroller_fea3ef {
-  margin-bottom: var(--user-area, 220px);
-}
-#app-mount .guilds_a4d4d9 .unreadMentionsIndicatorBottom_fea3ef {
-  bottom: calc(var(--user-area) + 10px);
-}
 #app-mount .panels_a4d4d9 > .container_b2ca13 {
   background: transparent;
   position: fixed;
@@ -18,36 +9,61 @@
   height: auto;
   border-top: none;
 }
+
 #app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] {
   flex-direction: column;
   width: 100%;
 }
+
 #app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .button_adca65 {
   width: 100%;
   border-radius: 0;
   padding: 12px 0;
   height: auto;
 }
+
 #app-mount .panels_a4d4d9 > .container_b2ca13 .avatarWrapper_b2ca13 {
   margin-right: 0;
   margin-top: 12px;
 }
+
 #app-mount .panels_a4d4d9 > .container_b2ca13 .avatarWrapper_b2ca13 .svg_c51b4e {
   width: 50px;
   height: 50px;
   transform: translate(1px, 1px);
 }
+
 #app-mount .panels_a4d4d9 > .container_b2ca13 .avatar_b2ca13 {
   width: 42px !important;
   height: 42px !important;
 }
+
 #app-mount .nameTag_b2ca13 {
   display: none;
 }
+
 #app-mount .avatarWrapper_b2ca13 {
   margin: 0;
   min-width: unset;
 }
+
 #app-mount .avatarWrapper_b2ca13:hover {
   background: transparent;
+}
+
+/* Additional CSS for vertical button alignment */
+#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .toolbar_e35bff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .toolbar_e35bff .button_adca65 {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
 }
