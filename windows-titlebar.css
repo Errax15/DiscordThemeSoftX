@@ -2,7 +2,7 @@
   --TB-header-padding: 125px;
 }
 .platform-win .typeWindows_a934d8 {
-  height: var(--TB-bar-height, 4px);
+  height: var(--TB-bar-height, 9px);
   margin-top: 0;
   position: absolute;
   top: 1px;
@@ -17,7 +17,7 @@
   position: relative;
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
-  height: var(--TB-height, 48px);
+  height: var(--TB-height, 20px);
   width: var(--TB-width, 40px);
 }
 .platform-win .winButton_a934d8:not(.winButtonClose_a934d8):hover {
