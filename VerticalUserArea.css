@@ -51,19 +51,3 @@
   background: transparent;
 }
 
-/* Additional CSS for vertical button alignment */
-#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .toolbar_e35bff {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  width: 100%;
-  padding: 10px 0;
-}
-
-#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .toolbar_e35bff .button_adca65 {
-  width: 100%;
-  height: auto;
-  padding: 10px 0;
-}
