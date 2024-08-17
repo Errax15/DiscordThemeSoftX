@@ -20,8 +20,10 @@
   position: relative;
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
-  height: var(--TB-height, 16px); /* Button height verkleinert */
-  width: var(--TB-width, 32px);  /* Button width verkleinert */
+  height: var(--TB-height, 16px); /* Button height reduziert */
+  width: var(--TB-width, 32px);  /* Button width reduziert */
+  line-height: 16px; /* line-height auf die gleiche Höhe setzen */
+  padding: 0; /* Padding entfernen oder anpassen */
 }
 
 .platform-win .winButton_a934d8:not(.winButtonClose_a934d8):hover {
