@@ -13,8 +13,8 @@
   bottom: 0;
   left: 0;
   flex-direction: column-reverse;
-  padding: 0 0 12px;
-  width: var(--guilds-width, 56px);
+  padding: 0 0 24px;
+  width: var(--guilds-width, 72px);
   height: auto;
   border-top: none;
 }
