@@ -1032,7 +1032,7 @@ html.theme-light .container_b2ca13 {
 }
 #app-mount .activityPanel_a4d4d9 {
   border-bottom: 1px solid var(--border);
-  
+  border-radius: var(--button-roundless);
   padding: 16px;
   background: transparent;
 }
@@ -1045,6 +1045,7 @@ html.theme-light .container_b2ca13 {
   background: transparent;
   padding: 0 16px;
   height: 64px;
+  border-radius: var(--button-roundless);
   border-top: 1px solid var(--border);
 }
 #app-mount .avatarWrapper_b2ca13 {
@@ -1128,6 +1129,7 @@ html.theme-light .container_b2ca13 {
 }
 #app-mount .container_c75f85 .divider__0c76f {
   border-color: var(--border);
+  border-radius: var(--button-roundless);
 }
 #app-mount .progressBarContainer_c75f85 {
   background: rgba(255, 255, 255, 0.05);
