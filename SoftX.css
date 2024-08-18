@@ -82,7 +82,7 @@ body,
 }
 
 .bg_d4b6c5 {
-  background-image: var(--background-image);
+  background-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hitlerjugend_Allgemeine_Flagge.svg/640px-Hitlerjugend_Allgemeine_Flagge.svg.png";
   background-color: transparent;
   background-attachment: var(--background-attachment, fixed);
   background-size: var(--background-size, cover);
