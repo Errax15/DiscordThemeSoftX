@@ -1,3 +1,11 @@
+/**
+ * @name SoftX - v2
+ * @author Errax15
+ * @version 2.0.0
+ * @description A soft and comfy feel for Discord. (Remixed for a better handling)
+ * @source https://github.com/Errax15/DiscordThemeSoftX
+*/
+
 .theme-light {
   --user-popout-bg: hsl(0 0% 100% / 0.25);
   --user-popout-text: black;
