@@ -8,6 +8,7 @@
   width: var(--guilds-width, 72px);
   height: auto;
   border-top: none;
+  border-radius: 10%; /* Rundung von 10% hinzugefügt */
 }
 
 #app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] {
@@ -17,7 +18,7 @@
 
 #app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .button_adca65 {
   width: 100%;
-  border-radius: 0;
+  border-radius: 10%; /* Rundung von 10% hinzugefügt */
   padding: 12px 0;
   height: auto;
 }
@@ -31,11 +32,13 @@
   width: 50px;
   height: 50px;
   transform: translate(1px, 1px);
+  border-radius: 10%; /* Rundung von 10% hinzugefügt */
 }
 
 #app-mount .panels_a4d4d9 > .container_b2ca13 .avatar_b2ca13 {
   width: 42px !important;
   height: 42px !important;
+  border-radius: 50%; /* Rundung auf 50% gesetzt für runde Avatare */
 }
 
 #app-mount .nameTag_b2ca13 {
@@ -45,9 +48,10 @@
 #app-mount .avatarWrapper_b2ca13 {
   margin: 0;
   min-width: unset;
+  border-radius: 10%; /* Rundung von 10% hinzugefügt */
 }
 
 #app-mount .avatarWrapper_b2ca13:hover {
   background: transparent;
+  border-radius: 10%; /* Rundung von 10% bei Hover hinzugefügt */
 }
-
