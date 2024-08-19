@@ -82,7 +82,8 @@ body,
 }
 
 .bg_d4b6c5 {
-  background-image: url("https://imgur.com/GD1NU4D.png");
+   /*background-image: url("https://imgur.com/GD1NU4D.png");*/
+  background-image: url("https://imgur.com/Nglfni6.png");
   background-color: transparent;
   background-attachment: var(--background-attachment, fixed);
   background-size: var(--background-size, cover);
